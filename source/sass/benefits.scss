@@ -1,0 +1,18 @@
+.benefits {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.benefits__card {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.benefits__description {
+  width: 580px;
+}
+
+.benefits__image--left {
+  order: -1;
+}

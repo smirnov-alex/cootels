@@ -1,0 +1,52 @@
+.room {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.room__wrapper {
+  margin-top: 80px;
+}
+
+.room__subtitle {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 12px;
+}
+
+.room__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.room__description {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 32px;
+  padding-right: 280px;
+}
+
+.room__links-wrapper {
+  display: flex;
+}
+
+.room__button {
+  margin-right: 24px;
+}
+
+.room__link {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: $buttons-back;
+  text-decoration: none;
+  display: block;
+  align-self: center;
+}
+
+

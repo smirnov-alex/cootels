@@ -1,0 +1,13 @@
+.page-header {
+  margin-right: 120px;
+  margin-left: 120px;
+  margin-bottom: 80px;
+  margin-top: 38px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header__logo {
+  fill: $title-text;
+  margin-top: 8px;
+}

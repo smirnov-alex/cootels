@@ -1,0 +1,29 @@
+.about-us {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  display: grid;
+  grid-template-columns: 384px auto;
+  gap: 120px;
+}
+
+.about-us__image {
+  margin-right: 120px;
+}
+
+.about-us__title {
+  margin: 0;
+  padding: 0;
+  margin-top: 105px;
+  margin-bottom: 24px;
+}
+
+.about-us__description {
+  margin: 0;
+  padding: 0;
+  padding-right: 100px;
+  padding-bottom: 16px;
+}
+
+.about-us__button {
+  margin-top: 16px;
+}

@@ -1,0 +1,46 @@
+.feedbacks {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.feedbacks__wrapper {
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.feedbacks__title {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 62px;
+  text-align: center;
+}
+
+.feedbacks__avatar {
+  margin: 0 auto;
+  margin-bottom: 44px;
+  display: block;
+}
+
+.feedbacks__text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.feedbacks__author {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: $title-text;
+  margin-bottom: 24px;
+}
+
+.feedbacks__button-list {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}

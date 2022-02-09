@@ -1,0 +1,163 @@
+//Colors
+$basic-text: #848fac;
+$title-text: #192252;
+$white: #ffffff;
+$buttons-back: #0e1734;
+$black: #000000;
+$links-room: #424f7b;
+$footer-back: #08265a;
+$footer-text: #d9dbde;
+
+// imports
+@import "page-header.scss";
+@import "main-nav.scss";
+@import "promo.scss";
+@import "about-us.scss";
+@import "benefits.scss";
+@import "reservation.scss";
+@import "room.scss";
+@import "feedbacks.scss";
+@import "page-footer.scss";
+
+
+//fonts
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Montserrat-Regular.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Montserrat-Regular.woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Montserrat-SemiBold.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Montserrat-SemiBold.woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Inter-Regular.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Inter-Regular.woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Inter-Medium.woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Inter-Medium.woff");
+  font-display: swap;
+}
+
+body {
+  background: #ffffff;
+  color: $title-text;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.page-main {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.button--common {
+  text-decoration: none;
+  color: $white;
+  background: $buttons-back;
+  display: block;
+  height: 48px;
+  padding: 0;
+  border-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 120px;
+
+  &:hover {
+    background: #0000cf;
+  }
+
+  &:active span {
+    opacity: 0.3;
+  }
+}
+
+.button--common-text {
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.title--common {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  letter-spacing: -0.01em;
+}
+
+.description--common {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: $basic-text;
+}
