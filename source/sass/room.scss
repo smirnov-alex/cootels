@@ -48,3 +48,60 @@
   display: block;
   align-self: center;
 }
+
+.room__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.room__item {
+  padding: 32px 36px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.07);
+  position: relative;
+}
+
+.room__item-info {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: $button-room;
+  position: absolute;
+  right: 36px;
+  top: 30px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $button-slider-active;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+
+  &--active {
+    background-color: $button-room-active;
+  }
+}
+
+.room__item-info-arrow {
+  fill: none;
+  stroke: $button-room-active;
+  stroke-width: 3px;
+
+  &--active {
+    transform: rotate(-180deg);
+    stroke: $white;
+  }
+}
+
+.room_item-description {
+  margin: 0;
+  padding: 0;
+  margin-top: 24px;
+}

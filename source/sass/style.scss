@@ -7,6 +7,10 @@ $black: #000000;
 $links-room: #424f7b;
 $footer-back: #08265a;
 $footer-text: #d9dbde;
+$button-slider: rgba(250, 176, 71, 0.35);
+$button-slider-active: #fab047;
+$button-room: rgba(255, 98, 10, 0.12);
+$button-room-active: #ff620a;
 
 // imports
 @import "page-header.scss";
@@ -126,7 +130,7 @@ body {
   width: 120px;
 
   &:hover {
-    background: #0000cf;
+    background: $footer-back;
   }
 
   &:active span {

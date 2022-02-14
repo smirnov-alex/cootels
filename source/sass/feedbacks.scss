@@ -44,3 +44,34 @@
   justify-content: center;
   list-style-type: none;
 }
+
+.feedbacks__button-item {
+  margin-right: 12px;
+  align-self: center;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.feedbacks__button {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  border: none;
+  background-color: $button-slider;
+  cursor: pointer;
+  display: block;
+
+  &--active {
+    background-color: $button-slider-active;
+  }
+
+  &:hover {
+    background: $button-room-active;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}

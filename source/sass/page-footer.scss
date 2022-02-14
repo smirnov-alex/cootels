@@ -2,14 +2,21 @@
   background-color: $footer-back;
   padding: 120px;
   color: $white;
-  display: grid;
-  gap: 400px;
-  grid-template-columns: 200px auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .page-footer__logo {
   fill: $white;
   margin-bottom: 12px;
+
+  &:hover {
+    fill: $links-room;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
 
 .page-footer__text {
@@ -35,6 +42,90 @@
   }
 }
 
-.page-footer_social-logo {
+.page-footer__social-logo {
   fill: $white;
+
+  &:hover {
+    fill: $links-room;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.page-footer__nav-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.page-footer__nav-item {
+  margin-right: 94px;
+
+  &:nth-child(2) {
+    margin-right: 141px;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.page-footer__nav-item-link {
+  margin-bottom: 24px;
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  color: $white;
+
+  &:hover {
+    color: $links-room;
+    text-decoration: underline;
+    font-weight: 700;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.page-footer__nav-sublist {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.page-footer__nav-subitem {
+  margin-bottom: 24px;
+
+  &:hover {
+    color: $links-room;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.page-footer__nav-item-sublink {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  color: $white;
+
+  &:hover {
+    color: $links-room;
+    text-decoration: underline;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }

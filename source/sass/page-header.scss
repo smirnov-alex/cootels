@@ -10,4 +10,13 @@
 .page-header__logo {
   fill: $title-text;
   margin-top: 8px;
+
+  &:hover {
+    fill: $buttons-back;
+    border-bottom: 3px solid $title-text;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }

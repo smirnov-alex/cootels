@@ -62,4 +62,13 @@
   color: $links-room;
   text-decoration: none;
   cursor: pointer;
+
+  &:hover {
+    color: $buttons-back;
+    text-decoration: underline;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
 }
